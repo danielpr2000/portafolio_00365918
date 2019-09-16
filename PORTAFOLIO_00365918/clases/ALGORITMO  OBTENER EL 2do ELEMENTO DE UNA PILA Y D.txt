@@ -1,0 +1,9 @@
+ALGORITMO: OBTENER EL 2do ELEMENTO DE UNA PILA Y DEJARLA SIN SUS 2 ULTIMOS ELEMENTOS
+
+s = inicializar
+(Agregar elementos a la pila)
+
+i = pop(s)
+k = pos(s)
+
+cout << k;
