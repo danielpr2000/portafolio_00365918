@@ -1,0 +1,31 @@
+Convertir Expresiones infijas a postfijas
+
+
+Ejercicio 1: A-B/(C*D$E)
+
+A-B/(C*DE$)
+
+A-B/(CDE$*)
+
+A-B(CDE$*)/
+
+ABCDE$*/-
+
+
+Ejercicio 2: ((A+B)*C-(D-E))$(F+G)
+
+((AB+)*C-(DE-))$(FG+)
+
+(AB+C*DE--)$FG+
+
+AB+C*DE--FG+$
+
+ALGORITMO
+INICIO
+Crear un if y else para comparar si es un operando o un operador
+Si es un operando hacer push en la pila
+Si es un operador hacer un pop
+Se va operar el operador con el elemento que acaba de salir de la pila
+Hacer lo mismo mientras la pila no este vacia
+Cuando la pila este vacia hacer un value y mostrar el resultado en pantalla
+FIN
