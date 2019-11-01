@@ -1,0 +1,58 @@
+ARBOL 1
+Nodo Raiz: A
+Nodos Ramas: B,C,D,E 
+Nodos Hoja: F,G,H,I
+
+Niveles de cada nodo
+A = 0
+B = 1
+C = 1
+D = 2
+E = 2
+F = 2
+G = 3
+H = 3
+I = 3
+
+Sub Arbol: E,H,I
+
+El Arbol NO es estricto
+
+El Arbol NO es perfecto
+
+Recorridos
+pre-orden: A,B,D,G,C,E,H,I,F
+post-orden: G,D,B,H,I,E,F,C,A
+in-orden: D,G,B,A,H,E,I,C,F
+
+
+
+ARBOL 2
+Nodo Raiz: A
+Nodos Ramas: B,C,D,E,F,H
+Nodos Hoja: G,I,J,K,L
+
+Niveles de cada nodo
+A = 0
+B = 1
+C = 2
+D = 2
+E = 3
+F = 3
+G = 3
+H = 3
+I = 4
+J = 4
+K = 4
+L = 4
+
+Sub Arbol: H,K,L
+
+El Arbol NO es estricto
+
+El Arbol NO es perfecto
+
+Recorridos
+pre-orden: A,B,C,E,I,F,J,D,G,H,K,L
+post-orden: I,E,J,F,C,G,K,L,H,D,B,A
+in-orden: E,I,C,F,J,B,A,G,D,K,H,L

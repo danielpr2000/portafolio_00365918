@@ -1,0 +1,21 @@
+Convertir Expresiones infijas a postfijas
+
+
+Ejr1: A-B/(C*D$E)
+
+A-B/(C*DE$)
+
+A-B/(CDE$*)
+
+A-B(CDE$*)/
+
+ABCDE$*/-
+
+
+Ejr2: ((A+B)*C-(D-E))$(F+G)
+
+((AB+)*C-(DE-))$(FG+)
+
+(AB+C*DE--)$FG+
+
+AB+C*DE--FG+$
